@@ -6,7 +6,7 @@
     prerequisites: >
     Использование смартфона. На смартфоне установлен интернет браузер
     test-data: |
-    Модель устройства iPhone 7, версия iOS 14.7.1 , браузер Google Chrome - версия 109.0.5414.83
+    Модель устройства iPhone 7, версия iOS 14.7.1 , браузер Google Chrome
     steps:
     - открыть браузер
     - перейти на страницу https://hexlet-products-store.vercel.app
