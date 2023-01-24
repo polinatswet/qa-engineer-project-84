@@ -2,7 +2,7 @@
 - summary: |
     Фильтрация товара невозможна, если фильтр цены имеет отрицательное значение
   environment: |
-     macOS big Sur 11.5.1 (20G80), browser Chrome 109.0.5414.87
+     https://hexlet-products-store.vercel.app. / macOS big Sur 11.5.1 (20G80)/ Chrome 109.0.5414.87
   steps-to-reproduce: |
     На странице Магазин во вкладке "Цена" в столбце "ДО" установить цифровое значение со знаком минус - нажать стрелку фильтра вниз
   expected-result: |
