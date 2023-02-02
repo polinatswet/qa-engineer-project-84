@@ -52,7 +52,7 @@ bugreports:
   - summary: |
       Отображение неполного списка категорий товаров
     environment: >
-      https://hexlet-products-store.vercel.app. / Chrome 109.0.5414.87 /macOS big Sur 11.5.1 
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Chrome 109.0.5414.87 /macOS big Sur 11.5.1 
     steps-to-reproduce:
       - развернуть вкладку Категория, ознакомиться со списком
       - нажать кнопку Следующая
@@ -67,7 +67,7 @@ bugreports:
   - summary: |
       Категории товаров не переводятся на русский язык
     environment: >
-      https://hexlet-products-store.vercel.app. / Chrome 109.0.5414.87 / macOS big Sur 11.5.1 
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app / Chrome 109.0.5414.87 / macOS big Sur 11.5.1 
     steps-to-reproduce:
       - во вкладке Язык или Language выбрать Russian
       - открыть вкладку Категория
@@ -80,7 +80,7 @@ bugreports:
   - summary: |
       Поиск по ключевому слову на русском языке не происходит
     environment: >
-      https://hexlet-products-store.vercel.app. / Chrome 109.0.5414.87 /macOS big Sur 11.5.1 
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Chrome 109.0.5414.87 /macOS big Sur 11.5.1 
     steps-to-reproduce:
       - во вкладке Язык или Language выбрать Russian
       - во вкладке Поиск ввести слово "масло"
@@ -92,7 +92,7 @@ bugreports:
   - summary: |
       Фильтр по цене не учитывает скидку
     environment: >
-      https://hexlet-products-store.vercel.app. / Chrome 109.0.5414.87/macOS big Sur 11.5.1 
+     https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Chrome 109.0.5414.87/macOS big Sur 11.5.1 
     steps-to-reproduce:
       - во вкладке Category выбрать smartphones
       - во вкладке Цена установить значение до 500
