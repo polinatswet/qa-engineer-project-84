@@ -38,7 +38,6 @@ test-cases:
     status: pass
     
 bugreports:
-bugreports:
   - summary: |
       Отображение неполного списка категорий товаров
     environment: >
