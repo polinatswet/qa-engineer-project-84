@@ -51,9 +51,8 @@
 - summary: |
     Переход по ссылке в карточке товара
   environment: >
-    https://hexlet-products-store.vercel.app. / Chrome 109.0.5414.87 / macOS big Sur 11.5.1
-    steps-to-reproduce:
-    Выбрать любой товар. Нажать на товар. В карточке товара перейти по ссылке со знаком # в начале
+    https://hexlet-products-store.vercel.app. / Chrome 109.0.5414.87 /macOS big Sur 11.5.1
+  steps-to-reproduce: Выбрать любой товар. Нажать на товар. В карточке товара перейти по ссылке со знаком
   expected-result: |
     Происходит переход по ссылке
   actual-result: |
