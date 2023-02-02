@@ -2,47 +2,36 @@
 - summary: |
     Отображение мобильной версии сайта
   status: pass
-  
 - summary: |
     Открытие сайта в браузере Safari
-    status: pass
-    
+    status: pass 
 - summary: |
     Открытие сайта в браузере Google Chrome
   status: pass
-
 - summary: |
     Проверка фильтра по категории
   status: pass
-    
 - summary: |
     Отображение полного списка категорий
   status: fail
-  
 - summary: |
    Отображение категории на русском языке
   status: fail
-    
 - summary: |
     Проверка фильтра по ключевому слову на английском
   status: pass
-
 - summary: |
     Проверка фильтра по ключевому слову на русском
   status: fail
-  
 - summary: |
     Учет скидки при фильтрации по цене
   status: fail
-  
 - summary: |
     Проверка открытия карточки товара
   status: pass
-  
 - summary: |
     Переход по ссылке в карточке товара
   status: fail
-   
 - summary: |
     Проверка добавления товара
   status: pass
