@@ -4,8 +4,7 @@
   requirement: >
    Сайт должен иметь мобильную версию
     prerequisites: >
-    Устройство iPhone 7, версия iOS 14.7.1,
-    браузер Google Chrome
+    Устройство iPhone 7, версия iOS 14.7.1, браузер Google Chrome
     test-data: |
     https://hexlet-products-store.vercel.app
     steps:
@@ -136,7 +135,7 @@
   test-data: |
     https://hexlet-products-store.vercel.app
   steps:
-    - Выбрать любой товар
+    - выбрать любой товар
     - нажать на товар
   expected-result: 
     Открывается карточка выбранного товара
@@ -150,7 +149,7 @@
   test-data: |
     https://hexlet-products-store.vercel.app
   steps:
-    - Выбрать любой товар
+    - выбрать любой товар
     - нажать на товар
     - в карточке товара перейти по ссылке со знаком #
   expected-result: 
