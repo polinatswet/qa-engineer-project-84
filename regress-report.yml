@@ -3,65 +3,52 @@ test-cases:
   - summary: |
       Отображение мобильной версии сайта
     status: pass
-    
   - summary: |
       Открытие сайта в браузере Safari
-      status: pass
-      
+    status: pass
   - summary: |
       Открытие сайта в браузере Google Chrome
     status: pass
-    
   - summary: |
       Проверка фильтра по категории
     status: pass
-    
   - summary: |
       Отображение полного списка категорий
-      status: fail
-      
+    status: fail
   - summary: |
       Отображение категории на русском языке
-       status: fail
-       
+    status: fail
   - summary: |
       Проверка фильтра по ключевому слову на английском
     status: pass
-    
   - summary: |
       Проверка фильтра по ключевому слову на русском
     status: fail
-    
   - summary: |
       Учет скидки при фильтрации по цене
     status: fail
-    
   - summary: |
       Проверка открытия карточки товара
     status: pass
-    
   - summary: |
       Переход по ссылке в карточке товара
-      status: pass
-      
+    status: pass
   - summary: |
       Проверка добавления товара
     status: pass
     
 bugreports:
+bugreports:
   - summary: |
       Отображение неполного списка категорий товаров
     environment: >
-      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Chrome 109.0.5414.87 /macOS big Sur 11.5.1 
-    steps-to-reproduce:
-      - развернуть вкладку Категория, ознакомиться со списком
-      - нажать кнопку Следующая
-      - ознакомитться со списком Категория, сравнить с развернутым ранее
-      - нажать кнопку Следующая
-      - ознакомитться со списком Категория, сравнить с развернутым ранее
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/Chrome 109.0.5414.87 /macOS big Sur 11.5.1 
+    steps-to-reproduce: Развернуть вкладку Категория, ознакомиться со списком.
+      Нажать кнопку Следующая. Ознакомитться со списком Категория, сравнить с развернутым ранее. Нажать кнопку Следующая.
+      Ознакомитться со списком Категория, сравнить с развернутым ранее.
     expected-result: >
       Доступен полный список категорий в одной вкладке. Для просмотра всех категорий не требуется переход на следующие страницы
-    actual-result: >
+    actual-result: >+
       Полный список категорий товаров отображается только при переходе на следующую страницу. Покупатель видит меньше
       
   - summary: |
@@ -69,9 +56,7 @@ bugreports:
     environment: >
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app / Chrome 109.0.5414.87 / macOS big Sur 11.5.1 
     steps-to-reproduce:
-      - во вкладке Язык или Language выбрать Russian
-      - открыть вкладку Категория
-      - прочитать название категорий
+      Во вкладке Язык или Language выбрать Russian. Ооткрыть вкладку Категория. Прочитать название категорий.
     expected-result: |
       Категории товаров отображаются на русском языке
     actual-result: |
@@ -82,8 +67,7 @@ bugreports:
     environment: >
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Chrome 109.0.5414.87 /macOS big Sur 11.5.1 
     steps-to-reproduce:
-      - во вкладке Язык или Language выбрать Russian
-      - во вкладке Поиск ввести слово "масло"
+      Во вкладке Язык или Language выбрать Russian. Во вкладке Поиск ввести слово "масло".
     expected-result: |
       Отображаются товары с ключевым словом в наименовании
     actual-result: |
@@ -94,8 +78,7 @@ bugreports:
     environment: >
      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Chrome 109.0.5414.87/macOS big Sur 11.5.1 
     steps-to-reproduce:
-      - во вкладке Category выбрать smartphones
-      - во вкладке Цена установить значение до 500
+      Во вкладке Category выбрать smartphones. Во вкладке Цена установить значение до 500.
     expected-result: >
       Отображается товар с учетом скидки. В результат поиска попали товары, которые до скидки не предлагались
     actual-result: >
