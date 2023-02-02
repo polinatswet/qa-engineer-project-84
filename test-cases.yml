@@ -1,23 +1,9 @@
----
-- summary: |
-    Отображение мобильной версии сайта
-  requirement: >
-   Сайт должен иметь мобильную версию
-    prerequisites: >
-    Устройство iPhone 7, версия iOS 14.7.1, браузер Google Chrome
-    test-data: |
-    https://hexlet-products-store.vercel.app
-    steps:
-    - перейти на страницу сайта
-    - убедиться в отображении мобильной версии
-  expected-result: |
-    Отображается мобильная версия сайта
-    
+---   
 - summary: |
     Открытие сайта в браузере Safari
-    requirement: |
+  requirement: >
     Сайт должен быть протестирован на совместимость с последними версиями браузеров
-  prerequisites: >
+  prerequisites: |
     браузер Safari версия 14.1.2 (16611.3.10.1.3)
   test-data: https://hexlet-products-store.vercel.app
   steps:
