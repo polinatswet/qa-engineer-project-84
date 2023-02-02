@@ -46,7 +46,8 @@
   prerequisites: |
     браузер Google Chrome 109.0.5414.87
   test-data: >
-    https://hexlet-products-store.vercel.app steps:
+    https://hexlet-products-store.vercel.app
+  steps:
      - развернуть вкладку Категория, ознакомиться со списком категорий
      - нажать кнопку Следующая
      - ознакомиться со списком Категория, сравнить с развернутым ранее
