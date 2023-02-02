@@ -55,7 +55,7 @@ bugreports:
     environment: >
       https://products-store-git-v2bugfixes-hexlet-components.vercel.app / Chrome 109.0.5414.87 / macOS big Sur 11.5.1 
     steps-to-reproduce:
-      Во вкладке Язык или Language выбрать Russian. Ооткрыть вкладку Категория. Прочитать название категорий.
+      Во вкладке Язык или Language выбрать Russian. Открыть вкладку Категория. Прочитать название категорий.
     expected-result: |
       Категории товаров отображаются на русском языке
     actual-result: |
@@ -70,15 +70,15 @@ bugreports:
     expected-result: |
       Отображаются товары с ключевым словом в наименовании
     actual-result: |
-      Поисковый запрос не выполняется
+      Поисковый запрос не выполняется. Нажатие Enter не дает результата. После ввода ключевого слова нет результата.
       
   - summary: |
       Фильтр по цене не учитывает скидку
     environment: >
      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/ Chrome 109.0.5414.87/macOS big Sur 11.5.1 
     steps-to-reproduce:
-      Во вкладке Category выбрать smartphones. Во вкладке Цена установить значение до 500.
+      Во вкладке Category выбрать smartphones. Во вкладке Цена установить значение до 500
     expected-result: >
-      Отображается товар с учетом скидки. В результат поиска попали товары, которые до скидки не предлагались
+      Отображается товар с учетом скидки. В результат поиска попали товары, которые ранее не предлагались покупателю
     actual-result: >
       Фильтр по цене учитывает цену товара без скидки
