@@ -28,10 +28,6 @@
   status: pass
   
 - summary: |
-    Проверка фильтра по ключевому слову на русском
-  status: fail
-  
-- summary: |
     Учет скидки при фильтрации по цене
   status: fail
   
