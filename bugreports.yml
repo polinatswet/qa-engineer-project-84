@@ -40,7 +40,7 @@
     Фильтр учитывает цену без скидки
     
 - summary: |
-    Нет перехода после клика ссылки по # в карточке товара
+    Нет перехода после клика ссылки с # в карточке товара
   environment: >
     https://hexlet-products-store.vercel.app. / Chrome 109.0.5414.87 /macOS big Sur 11.5.1
   steps-to-reproduce:
